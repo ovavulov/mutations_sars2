@@ -1,0 +1,15 @@
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: N1_1  and  C2_2 
+REMARK       I    between atoms: C2_2  and  N3_3 
+ROOT
+ATOM      1  N1  ZIN AC000      -0.016   1.344   0.009  0.00  0.00    -0.352 N 
+ATOM      2  C2  ZIN AC000       0.002  -0.004   0.002  0.00  0.00     0.311 C 
+ATOM      3  N3  ZIN AC000       1.178  -0.662  -0.013  0.00  0.00    -0.352 N 
+ATOM      4  O4  ZIN AC000      -1.042  -0.626   0.009  0.00  0.00    -0.248 OA
+ATOM      5  H5  ZIN AC000       0.817   1.840   0.004  0.00  0.00     0.160 HD
+ATOM      6  H6  ZIN AC000      -0.863   1.817   0.016  0.00  0.00     0.160 HD
+ATOM      7  H7  ZIN AC000       2.012  -0.166  -0.018  0.00  0.00     0.160 HD
+ATOM      8  H8  ZIN AC000       1.191  -1.632  -0.018  0.00  0.00     0.160 HD
+ENDROOT
+TORSDOF 0

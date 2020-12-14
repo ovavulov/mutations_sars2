@@ -1,0 +1,41 @@
+REMARK  6 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK    2  A    between atoms: C3_3  and  C5_4 
+REMARK    3  A    between atoms: C3_3  and  C12_11 
+REMARK    4  A    between atoms: C9_8  and  O10_9 
+REMARK    5  A    between atoms: C12_11  and  C15_13 
+REMARK    6  A    between atoms: C15_13  and  N16_14 
+ROOT
+ATOM      1  C3  ZIN AC000      -1.449  -0.540   0.052  0.00  0.00     0.023 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C2  ZIN AC000      -0.030   0.018   0.173  0.00  0.00     0.005 C 
+ATOM      3  C1  ZIN AC000      -0.070   1.544   0.064  0.00  0.00     0.006 C 
+ENDBRANCH   1   2
+BRANCH   1   4
+ATOM      4  C5  ZIN AC000      -1.986  -0.253  -1.327  0.00  0.00    -0.051 A 
+ATOM      5  C11 ZIN AC000      -3.128   0.509  -1.478  0.00  0.00     0.044 A 
+ATOM      6  C9  ZIN AC000      -3.618   0.777  -2.748  0.00  0.00     0.066 A 
+ATOM      7  C8  ZIN AC000      -2.965   0.270  -3.863  0.00  0.00     0.036 A 
+ATOM      8  C7  ZIN AC000      -1.827  -0.496  -3.705  0.00  0.00     0.003 A 
+ATOM      9  C6  ZIN AC000      -1.337  -0.757  -2.439  0.00  0.00     0.007 A 
+BRANCH   6  10
+ATOM     10  O10 ZIN AC000      -4.739   1.530  -2.900  0.00  0.00    -0.361 OA
+ATOM     11  H28 ZIN AC000      -5.559   1.018  -2.903  0.00  0.00     0.217 HD
+ENDBRANCH   6  10
+ENDBRANCH   1   4
+BRANCH   1  12
+ATOM     12  C12 ZIN AC000      -1.424  -2.051   0.285  0.00  0.00     0.016 C 
+ATOM     13  C14 ZIN AC000      -0.880  -2.343   1.685  0.00  0.00     0.012 C 
+BRANCH  12  14
+ATOM     14  C15 ZIN AC000      -2.844  -2.610   0.164  0.00  0.00     0.238 C 
+BRANCH  14  15
+ATOM     15  N16 ZIN AC000      -2.804  -4.075   0.260  0.00  0.00    -0.078 N 
+ATOM     16  H17 ZIN AC000      -2.329  -4.344   1.108  0.00  0.00     0.278 HD
+ATOM     17  C18 ZIN AC000      -4.175  -4.602   0.278  0.00  0.00     0.269 C 
+ATOM     18  C19 ZIN AC000      -2.084  -4.622  -0.898  0.00  0.00     0.269 C 
+ENDBRANCH  14  15
+ENDBRANCH  12  14
+ENDBRANCH   1  12
+TORSDOF 6

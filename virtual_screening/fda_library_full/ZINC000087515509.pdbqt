@@ -1,0 +1,35 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C4_3 
+REMARK    2  A    between atoms: C2_2  and  N13_12 
+REMARK    3  A    between atoms: C4_3  and  N5_4 
+ROOT
+ATOM      1  C1  ZIN AC000      -0.019   1.526   0.010  0.00  0.00     0.045 C 
+ATOM      2  C2  ZIN AC000       0.002  -0.004   0.002  0.00  0.00     0.248 C 
+ENDROOT
+BRANCH   2   3
+ATOM      3  C4  ZIN AC000       0.742  -0.511   1.242  0.00  0.00     0.308 C 
+BRANCH   3   4
+ATOM      4  N5  ZIN AC000       0.659  -1.976   1.296  0.00  0.00     0.108 N 
+ATOM      5  C12 ZIN AC000       1.149  -2.484   2.587  0.00  0.00     0.375 C 
+ATOM      6  C10 ZIN AC000       1.036  -3.986   2.605  0.00  0.00     0.252 C 
+ATOM      7  N9  ZIN AC000       1.115  -4.694   1.464  0.00  0.00    -0.295 N 
+ATOM      8  O11 ZIN AC000       0.872  -4.564   3.658  0.00  0.00    -0.271 OA
+ATOM      9  C7  ZIN AC000       1.287  -4.088   0.276  0.00  0.00     0.252 C 
+ATOM     10  H28 ZIN AC000       1.046  -5.660   1.498  0.00  0.00     0.171 HD
+ATOM     11  C6  ZIN AC000       1.407  -2.589   0.188  0.00  0.00     0.375 C 
+ATOM     12  O8  ZIN AC000       1.345  -4.755  -0.735  0.00  0.00    -0.271 OA
+ENDBRANCH   3   4
+ENDBRANCH   2   3
+BRANCH   2  13
+ATOM     13  N13 ZIN AC000      -1.376  -0.512   0.012  0.00  0.00     0.112 N 
+ATOM     14  C20 ZIN AC000      -2.045  -0.247  -1.270  0.00  0.00     0.376 C 
+ATOM     15  C18 ZIN AC000      -3.449  -0.793  -1.220  0.00  0.00     0.252 C 
+ATOM     16  N17 ZIN AC000      -4.112  -0.875  -0.053  0.00  0.00    -0.295 N 
+ATOM     17  O19 ZIN AC000      -3.986  -1.163  -2.242  0.00  0.00    -0.271 OA
+ATOM     18  C15 ZIN AC000      -3.545  -0.483   1.102  0.00  0.00     0.252 C 
+ATOM     19  H33 ZIN AC000      -5.017  -1.223  -0.044  0.00  0.00     0.171 HD
+ATOM     20  C14 ZIN AC000      -2.145   0.072   1.121  0.00  0.00     0.376 C 
+ATOM     21  O16 ZIN AC000      -4.168  -0.578   2.138  0.00  0.00    -0.271 OA
+ENDBRANCH   2  13
+TORSDOF 3

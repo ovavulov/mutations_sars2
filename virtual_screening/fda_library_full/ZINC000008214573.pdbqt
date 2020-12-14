@@ -1,0 +1,10 @@
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+ROOT
+ATOM      1  O1  ZIN AC000       0.002  -0.004   0.002  0.00  0.00    -0.586 OA
+ATOM      2  S2  ZIN AC000      -0.018   1.484   0.010  0.00  0.00     0.178 S 
+ATOM      3  O3  ZIN AC000       1.378   1.999  -0.000  0.00  0.00    -0.586 OA
+ATOM      4  O4  ZIN AC000      -0.738   1.977  -1.196  0.00  0.00    -0.586 OA
+ATOM      5  S5  ZIN AC000      -0.862   2.066   1.494  0.00  0.00     0.079 SA
+ENDROOT
+TORSDOF 0

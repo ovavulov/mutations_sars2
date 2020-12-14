@@ -1,0 +1,67 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  O4_3 
+REMARK    2  A    between atoms: C2_2  and  C5_4 
+REMARK    3  A    between atoms: C10_8  and  C11_9 
+REMARK    4  A    between atoms: C14_12  and  S15_13 
+REMARK    5  A    between atoms: S15_13  and  C16_14 
+REMARK    6  A    between atoms: C22_19  and  C24_20 
+REMARK       I    between atoms: C24_20  and  N26_22 
+REMARK    7  A    between atoms: N26_22  and  C27_23 
+REMARK    8  A    between atoms: C31_27  and  C32_28 
+ROOT
+ATOM      1  C16 RES d   1      -6.372  -3.396  -1.069  0.00  0.00     0.080 C 
+ATOM      2  C18 RES d   1      -6.468  -1.929  -1.559  0.00  0.00     0.248 C 
+ATOM      3  N19 RES d   1      -7.652  -1.904  -2.444  0.00  0.00    -0.061 N 
+ATOM      4  H20 RES d   1      -8.135  -1.024  -2.339  0.00  0.00     0.278 HD
+ATOM      5  H21 RES d   1      -7.361  -2.019  -3.404  0.00  0.00     0.278 HD
+ATOM      6  C22 RES d   1      -8.547  -3.011  -2.063  0.00  0.00     0.278 C 
+ATOM      7  C36 RES d   1      -7.869  -3.770  -0.902  0.00  0.00     0.060 C 
+ENDROOT
+BRANCH   1   8
+ATOM      8  S15 RES d   1      -5.499  -3.495   0.513  0.00  0.00    -0.125 SA
+BRANCH   8   9
+ATOM      9  C14 RES d   1      -3.849  -3.203  -0.029  0.00  0.00     0.013 A 
+ATOM     10  C10 RES d   1      -3.072  -2.162   0.342  0.00  0.00     0.108 A 
+ATOM     11  N9  RES d   1      -1.793  -2.203  -0.238  0.00  0.00    -0.206 NA
+ATOM     12  C7  RES d   1      -0.749  -2.617   0.533  0.00  0.00     0.213 A 
+ATOM     13  C40 RES d   1      -1.726  -3.355  -1.164  0.00  0.00     0.095 A 
+ATOM     14  C5  RES d   1      -0.597  -3.890  -0.274  0.00  0.00     0.120 A 
+ATOM     15  O8  RES d   1      -0.168  -2.149   1.489  0.00  0.00    -0.279 OA
+ATOM     16  C37 RES d   1      -3.070  -4.075  -0.986  0.00  0.00     0.043 A 
+ATOM     17  C39 RES d   1      -2.855  -5.466  -0.386  0.00  0.00     0.017 C 
+BRANCH  10  18
+ATOM     18  C11 RES d   1      -3.499  -1.143   1.218  0.00  0.00     0.222 C 
+ATOM     19  O12 RES d   1      -4.761  -1.119   1.646  0.00  0.00    -0.643 OA
+ATOM     20  O13 RES d   1      -2.641  -0.205   1.617  0.00  0.00    -0.643 OA
+ENDBRANCH  10  18
+BRANCH  14  21
+ATOM     21  C2  RES d   1       0.749  -4.007  -0.992  0.00  0.00     0.128 C 
+ATOM     22  C1  RES d   1       1.810  -4.505  -0.008  0.00  0.00     0.040 C 
+BRANCH  21  23
+ATOM     23  O4  RES d   1       0.633  -4.931  -2.075  0.00  0.00    -0.395 OA
+ATOM     24  H45 RES d   1       0.376  -5.823  -1.805  0.00  0.00     0.210 HD
+ENDBRANCH  21  23
+ENDBRANCH  14  21
+ENDBRANCH   8   9
+ENDBRANCH   1   8
+BRANCH   6  25
+ATOM     25  C24 RES d   1      -9.878  -2.463  -1.614  0.00  0.00     0.253 C 
+ATOM     26  O25 RES d   1      -9.975  -1.300  -1.286  0.00  0.00    -0.271 OA
+ATOM     27  N26 RES d   1     -10.959  -3.267  -1.577  0.00  0.00    -0.325 N 
+ATOM     28  H48 RES d   1     -10.899  -4.177  -1.905  0.00  0.00     0.169 HD
+BRANCH  27  29
+ATOM     29  C27 RES d   1     -12.170  -2.786  -1.065  0.00  0.00     0.035 A 
+ATOM     30  C35 RES d   1     -12.534  -1.465  -1.270  0.00  0.00     0.048 A 
+ATOM     31  C31 RES d   1     -13.745  -0.992  -0.761  0.00  0.00     0.043 A 
+ATOM     32  C30 RES d   1     -14.577  -1.853  -0.040  0.00  0.00     0.018 A 
+ATOM     33  C29 RES d   1     -14.203  -3.165   0.162  0.00  0.00     0.003 A 
+ATOM     34  C28 RES d   1     -13.005  -3.634  -0.347  0.00  0.00     0.029 A 
+BRANCH  31  35
+ATOM     35  C32 RES d   1     -14.142   0.412  -0.978  0.00  0.00     0.209 C 
+ATOM     36  O33 RES d   1     -15.201   0.825  -0.527  0.00  0.00    -0.644 OA
+ATOM     37  O34 RES d   1     -13.412   1.163  -1.610  0.00  0.00    -0.644 OA
+ENDBRANCH  31  35
+ENDBRANCH  27  29
+ENDBRANCH   6  25
+TORSDOF 8

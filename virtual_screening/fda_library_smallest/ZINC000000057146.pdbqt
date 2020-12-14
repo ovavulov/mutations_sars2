@@ -1,0 +1,40 @@
+REMARK  5 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: N11_11  and  C12_12 
+REMARK    2  A    between atoms: C12_12  and  C13_13 
+REMARK    3  A    between atoms: C13_13  and  O15_14 
+REMARK    4  A    between atoms: C13_13  and  C16_15 
+REMARK    5  A    between atoms: C16_15  and  O17_16 
+ROOT
+ATOM      1  C1  ZIN AC000      -0.018   1.461   0.010  0.00  0.00     0.163 C 
+ATOM      2  N2  ZIN AC000       0.002  -0.004   0.002  0.00  0.00    -0.286 N 
+ATOM      3  C3  ZIN AC000      -1.189  -0.712   0.004  0.00  0.00     0.167 A 
+ATOM      4  C4  ZIN AC000      -1.144  -2.100  -0.004  0.00  0.00     0.151 A 
+ATOM      5  C5  ZIN AC000       0.111  -2.748  -0.013  0.00  0.00     0.282 A 
+ATOM      6  O6  ZIN AC000       0.176  -3.964  -0.021  0.00  0.00    -0.265 OA
+ATOM      7  N7  ZIN AC000       1.236  -2.003  -0.015  0.00  0.00    -0.269 N 
+ATOM      8  C8  ZIN AC000       2.541  -2.668  -0.025  0.00  0.00     0.164 C 
+ATOM      9  C9  ZIN AC000       1.178  -0.660  -0.013  0.00  0.00     0.332 A 
+ATOM     10  O10 ZIN AC000       2.213  -0.022  -0.014  0.00  0.00    -0.246 OA
+ATOM     11  N11 ZIN AC000      -2.456  -2.530   0.000  0.00  0.00    -0.331 N 
+ATOM     12  C18 ZIN AC000      -3.231  -1.427   0.010  0.00  0.00     0.212 A 
+ATOM     13  N19 ZIN AC000      -2.477  -0.358   0.012  0.00  0.00    -0.223 NA
+ENDROOT
+BRANCH  11  14
+ATOM     14  C12 ZIN AC000      -2.918  -3.920  -0.005  0.00  0.00     0.164 C 
+BRANCH  14  15
+ATOM     15  C13 ZIN AC000      -2.953  -4.450   1.430  0.00  0.00     0.160 C 
+BRANCH  15  16
+ATOM     16  O15 ZIN AC000      -1.624  -4.496   1.954  0.00  0.00    -0.392 OA
+ATOM     17  H28 ZIN AC000      -1.023  -5.065   1.454  0.00  0.00     0.210 HD
+ENDBRANCH  15  16
+BRANCH  15  18
+ATOM     18  C16 ZIN AC000      -3.553  -5.858   1.439  0.00  0.00     0.197 C 
+BRANCH  18  19
+ATOM     19  O17 ZIN AC000      -3.693  -6.308   2.788  0.00  0.00    -0.398 OA
+ATOM     20  H31 ZIN AC000      -4.068  -7.195   2.870  0.00  0.00     0.209 HD
+ENDBRANCH  18  19
+ENDBRANCH  15  18
+ENDBRANCH  14  15
+ENDBRANCH  11  14
+TORSDOF 5

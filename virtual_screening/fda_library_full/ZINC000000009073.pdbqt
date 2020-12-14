@@ -1,0 +1,33 @@
+REMARK  2 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C17_16  and  O18_17 
+REMARK    2  A    between atoms: C19_18  and  O20_19 
+ROOT
+ATOM      1  C1  ZIN AC000      -0.018   1.465   0.010  0.00  0.00     0.310 C 
+ATOM      2  N2  ZIN AC000       0.002  -0.004   0.002  0.00  0.00     0.093 N 
+ATOM      3  C3  ZIN AC000      -1.355  -0.547  -0.080  0.00  0.00     0.277 C 
+ATOM      4  C4  ZIN AC000      -1.324  -2.043  -0.342  0.00  0.00     0.069 C 
+ATOM      5  C5  ZIN AC000      -0.214  -2.730   0.402  0.00  0.00    -0.047 A 
+ATOM      6  C6  ZIN AC000      -0.167  -4.118   0.371  0.00  0.00     0.008 A 
+ATOM      7  C7  ZIN AC000       0.815  -4.808   1.054  0.00  0.00     0.001 A 
+ATOM      8  C8  ZIN AC000       1.768  -4.117   1.774  0.00  0.00     0.013 A 
+ATOM      9  C9  ZIN AC000       1.741  -2.727   1.794  0.00  0.00    -0.014 A 
+ATOM     10  C10 ZIN AC000       0.739  -2.032   1.111  0.00  0.00    -0.007 A 
+ATOM     11  C11 ZIN AC000       0.707  -0.528   1.181  0.00  0.00     0.261 C 
+ATOM     12  C13 ZIN AC000       2.122   0.046   1.198  0.00  0.00     0.080 C 
+ATOM     13  C14 ZIN AC000       2.950  -0.613   2.267  0.00  0.00    -0.042 A 
+ATOM     14  C15 ZIN AC000       3.890   0.113   2.969  0.00  0.00     0.011 A 
+ATOM     15  C16 ZIN AC000       4.663  -0.502   3.939  0.00  0.00     0.040 A 
+ATOM     16  C17 ZIN AC000       4.500  -1.851   4.212  0.00  0.00     0.099 A 
+ATOM     17  C19 ZIN AC000       3.550  -2.590   3.516  0.00  0.00     0.110 A 
+ATOM     18  C21 ZIN AC000       2.760  -1.968   2.557  0.00  0.00     0.017 A 
+ENDROOT
+BRANCH  16  19
+ATOM     19  O18 ZIN AC000       5.269  -2.451   5.160  0.00  0.00    -0.358 OA
+ATOM     20  H36 ZIN AC000       4.888  -2.428   6.049  0.00  0.00     0.217 HD
+ENDBRANCH  16  19
+BRANCH  17  21
+ATOM     21  O20 ZIN AC000       3.385  -3.914   3.780  0.00  0.00    -0.357 OA
+ATOM     22  H37 ZIN AC000       2.735  -4.099   4.470  0.00  0.00     0.217 HD
+ENDBRANCH  17  21
+TORSDOF 2

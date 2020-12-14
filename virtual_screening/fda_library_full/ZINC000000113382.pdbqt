@@ -1,0 +1,52 @@
+REMARK  8 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK       I    between atoms: C2_2  and  N3_3 
+REMARK    1  A    between atoms: C2_2  and  C20_18 
+REMARK    2  A    between atoms: N3_3  and  C4_4 
+REMARK    3  A    between atoms: C4_4  and  C6_5 
+REMARK    4  A    between atoms: C4_4  and  C8_7 
+REMARK    5  A    between atoms: C6_5  and  O7_6 
+REMARK    6  A    between atoms: C8_7  and  O10_8 
+REMARK    7  A    between atoms: C8_7  and  C11_9 
+REMARK    8  A    between atoms: C14_12  and  N15_13 
+ROOT
+ATOM      1  C8  ZIN AC000       0.285   3.510   1.200  0.00  0.00     0.178 C 
+ENDROOT
+BRANCH   1   2
+ATOM      2  C4  ZIN AC000       1.145   3.085   0.008  0.00  0.00     0.168 C 
+BRANCH   2   3
+ATOM      3  N3  ZIN AC000       0.507   3.524  -1.236  0.00  0.00    -0.244 NA
+ATOM      4  C2  ZIN AC000       1.088   3.259  -2.422  0.00  0.00     0.272 C 
+ATOM      5  O1  ZIN AC000       2.140   2.656  -2.460  0.00  0.00    -0.269 OA
+BRANCH   4   6
+ATOM      6  C20 ZIN AC000       0.432   3.710  -3.701  0.00  0.00     0.271 C 
+ATOM      7 Cl21 ZIN AC000       1.366   3.084  -5.110  0.00  0.00    -0.098 Cl
+ATOM      8 Cl22 ZIN AC000      -1.254   3.075  -3.768  0.00  0.00    -0.098 Cl
+ENDBRANCH   4   6
+ENDBRANCH   2   3
+BRANCH   2   9
+ATOM      9  C6  ZIN AC000       1.286   1.562  -0.002  0.00  0.00     0.194 C 
+BRANCH   9  10
+ATOM     10  O7  ZIN AC000      -0.011   0.963   0.007  0.00  0.00    -0.399 OA
+ATOM     11  H25 ZIN AC000       0.002  -0.004   0.002  0.00  0.00     0.209 HD
+ENDBRANCH   9  10
+ENDBRANCH   2   9
+ENDBRANCH   1   2
+BRANCH   1  12
+ATOM     12  O10 ZIN AC000      -0.966   2.822   1.154  0.00  0.00    -0.389 OA
+ATOM     13  H26 ZIN AC000      -1.482   2.996   0.354  0.00  0.00     0.210 HD
+ENDBRANCH   1  12
+BRANCH   1  14
+ATOM     14  C11 ZIN AC000       0.044   4.996   1.141  0.00  0.00    -0.027 A 
+ATOM     15  C19 ZIN AC000       0.863   5.858   1.846  0.00  0.00     0.012 A 
+ATOM     16  C18 ZIN AC000       0.641   7.222   1.792  0.00  0.00     0.037 A 
+ATOM     17  C14 ZIN AC000      -0.399   7.723   1.031  0.00  0.00     0.102 A 
+ATOM     18  C13 ZIN AC000      -1.218   6.861   0.326  0.00  0.00     0.037 A 
+ATOM     19  C12 ZIN AC000      -0.993   5.498   0.377  0.00  0.00     0.012 A 
+BRANCH  17  20
+ATOM     20  N15 ZIN AC000      -0.636   9.183   0.973  0.00  0.00    -0.116 N 
+ATOM     21  O16 ZIN AC000       0.085   9.943   1.595  0.00  0.00    -0.532 OA
+ATOM     22  O17 ZIN AC000      -1.553   9.625   0.303  0.00  0.00    -0.532 OA
+ENDBRANCH  17  20
+ENDBRANCH   1  14
+TORSDOF 8

@@ -1,0 +1,13 @@
+receptor  = ../output/RBD_mut_protein.pdbqt
+ligand    = ../FOLDER/LIGAND.pdbqt
+center_x = -32.799
+center_y = 24.877
+center_z = 5.741
+size_x = 10
+size_y = 12
+size_z = 8
+out       = ../output/LIGAND.docked.pdbqt
+log       = ../output/LIGAND.docked.log
+num_modes = 10
+cpu = 4
+seed = 19 

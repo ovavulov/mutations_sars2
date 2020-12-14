@@ -1,0 +1,100 @@
+REMARK  18 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK    2  A    between atoms: C3_3  and  C4_4 
+REMARK    3  A    between atoms: C4_4  and  C5_5 
+REMARK    4  A    between atoms: C6_6  and  C7_7 
+REMARK    5  A    between atoms: C7_7  and  C9_9 
+REMARK    6  A    between atoms: C12_12  and  O13_13 
+REMARK    7  A    between atoms: O13_13  and  C14_14 
+REMARK    8  A    between atoms: C14_14  and  C15_15 
+REMARK    9  A    between atoms: C15_15  and  C16_16 
+REMARK   10  A    between atoms: C16_16  and  N17_17 
+REMARK   11  A    between atoms: N17_17  and  C19_19 
+REMARK   12  A    between atoms: N17_17  and  C23_23 
+REMARK   13  A    between atoms: C19_19  and  C20_20 
+REMARK   14  A    between atoms: C20_20  and  C21_21 
+REMARK   15  A    between atoms: C23_23  and  C24_24 
+REMARK   16  A    between atoms: C24_24  and  C25_25 
+REMARK   17  A    between atoms: C31_31  and  N32_32 
+REMARK   18  A    between atoms: N32_32  and  S33_33 
+ROOT
+ATOM      1  C7  ZIN AC000      -3.351  -3.745  -2.898  0.00  0.00     0.195 C 
+ATOM      2  O8  ZIN AC000      -2.400  -3.057  -3.219  0.00  0.00    -0.287 OA
+ENDROOT
+BRANCH   1   3
+ATOM      3  C6  ZIN AC000      -3.525  -4.152  -1.497  0.00  0.00     0.058 A 
+ATOM      4  C5  ZIN AC000      -3.113  -5.316  -0.920  0.00  0.00     0.069 A 
+ATOM      5  O40 ZIN AC000      -3.456  -5.328   0.373  0.00  0.00    -0.313 OA
+ATOM      6  C39 ZIN AC000      -4.095  -4.191   0.723  0.00  0.00     0.087 A 
+ATOM      7  C29 ZIN AC000      -4.183  -3.384  -0.420  0.00  0.00     0.017 A 
+ATOM      8  C38 ZIN AC000      -4.632  -3.737   1.921  0.00  0.00     0.040 A 
+ATOM      9  C30 ZIN AC000      -4.802  -2.140  -0.357  0.00  0.00     0.045 A 
+ATOM     10  C31 ZIN AC000      -5.334  -1.702   0.845  0.00  0.00     0.043 A 
+ATOM     11  C37 ZIN AC000      -5.246  -2.505   1.980  0.00  0.00     0.033 A 
+BRANCH   4  12
+ATOM     12  C4  ZIN AC000      -2.386  -6.426  -1.634  0.00  0.00     0.066 C 
+BRANCH  12  13
+ATOM     13  C3  ZIN AC000      -0.877  -6.194  -1.536  0.00  0.00     0.006 C 
+BRANCH  13  14
+ATOM     14  C2  ZIN AC000      -0.139  -7.321  -2.260  0.00  0.00    -0.004 C 
+ATOM     15  C1  ZIN AC000       1.370  -7.089  -2.162  0.00  0.00     0.005 C 
+ENDBRANCH  13  14
+ENDBRANCH  12  13
+ENDBRANCH   4  12
+BRANCH  10  16
+ATOM     16  N32 ZIN AC000      -5.959  -0.453   0.919  0.00  0.00    -0.285 N 
+ATOM     17  H79 ZIN AC000      -5.538   0.325   0.521  0.00  0.00     0.178 HD
+BRANCH  16  18
+ATOM     18  S33 ZIN AC000      -7.420  -0.303   1.685  0.00  0.00     0.227 S 
+ATOM     19  C34 ZIN AC000      -8.539  -1.373   0.740  0.00  0.00     0.186 C 
+ATOM     20  O35 ZIN AC000      -7.193  -0.840   2.981  0.00  0.00    -0.206 OA
+ATOM     21  O36 ZIN AC000      -7.769   1.063   1.509  0.00  0.00    -0.206 OA
+ENDBRANCH  16  18
+ENDBRANCH  10  16
+ENDBRANCH   1   3
+BRANCH   1  22
+ATOM     22  C9  ZIN AC000      -4.330  -4.172  -3.918  0.00  0.00     0.015 A 
+ATOM     23  C28 ZIN AC000      -4.108  -3.882  -5.267  0.00  0.00     0.018 A 
+ATOM     24  C27 ZIN AC000      -5.021  -4.286  -6.215  0.00  0.00     0.037 A 
+ATOM     25  C12 ZIN AC000      -6.167  -4.974  -5.831  0.00  0.00     0.068 A 
+ATOM     26  C11 ZIN AC000      -6.393  -5.260  -4.489  0.00  0.00     0.037 A 
+ATOM     27  C10 ZIN AC000      -5.483  -4.863  -3.535  0.00  0.00     0.018 A 
+BRANCH  25  28
+ATOM     28  O13 ZIN AC000      -7.066  -5.366  -6.768  0.00  0.00    -0.351 OA
+BRANCH  28  29
+ATOM     29  C14 ZIN AC000      -6.771  -5.040  -8.127  0.00  0.00     0.177 C 
+BRANCH  29  30
+ATOM     30  C15 ZIN AC000      -7.891  -5.560  -9.031  0.00  0.00     0.054 C 
+BRANCH  30  31
+ATOM     31  C16 ZIN AC000      -7.575  -5.210 -10.487  0.00  0.00     0.237 C 
+BRANCH  31  32
+ATOM     32  N17 ZIN AC000      -8.687  -5.641 -11.346  0.00  0.00    -0.071 N 
+ATOM     33  H18 ZIN AC000      -8.878  -6.618 -11.184  0.00  0.00     0.279 HD
+BRANCH  32  34
+ATOM     34  C19 ZIN AC000      -9.883  -4.848 -11.032  0.00  0.00     0.234 C 
+BRANCH  34  35
+ATOM     35  C20 ZIN AC000     -11.072  -5.379 -11.836  0.00  0.00     0.027 C 
+BRANCH  35  36
+ATOM     36  C21 ZIN AC000     -12.318  -4.554 -11.509  0.00  0.00    -0.003 C 
+ATOM     37  C22 ZIN AC000     -13.506  -5.084 -12.314  0.00  0.00     0.005 C 
+ENDBRANCH  35  36
+ENDBRANCH  34  35
+ENDBRANCH  32  34
+BRANCH  32  38
+ATOM     38  C23 ZIN AC000      -8.323  -5.440 -12.755  0.00  0.00     0.234 C 
+BRANCH  38  39
+ATOM     39  C24 ZIN AC000      -7.177  -6.384 -13.125  0.00  0.00     0.027 C 
+BRANCH  39  40
+ATOM     40  C25 ZIN AC000      -6.734  -6.109 -14.563  0.00  0.00    -0.003 C 
+ATOM     41  C26 ZIN AC000      -5.588  -7.053 -14.933  0.00  0.00     0.005 C 
+ENDBRANCH  39  40
+ENDBRANCH  38  39
+ENDBRANCH  32  38
+ENDBRANCH  31  32
+ENDBRANCH  30  31
+ENDBRANCH  29  30
+ENDBRANCH  28  29
+ENDBRANCH  25  28
+ENDBRANCH   1  22
+TORSDOF 18

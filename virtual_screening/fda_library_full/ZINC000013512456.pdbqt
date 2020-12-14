@@ -1,0 +1,35 @@
+REMARK  3 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C4_4  and  C7_7 
+REMARK       I    between atoms: C7_7  and  N9_9 
+REMARK    2  A    between atoms: N9_9  and  C10_10 
+REMARK    3  A    between atoms: C13_13  and  C14_14 
+ROOT
+ATOM      1  C1  ZIN AC000      -5.006  -3.084   0.799  0.00  0.00     0.081 C 
+ATOM      2  C2  ZIN AC000      -3.739  -2.275   0.900  0.00  0.00     0.107 C 
+ATOM      3  O3  ZIN AC000      -2.647  -2.806   1.475  0.00  0.00    -0.195 OA
+ATOM      4  C4  ZIN AC000      -3.701  -1.004   0.408  0.00  0.00     0.144 C 
+ATOM      5  C5  ZIN AC000      -4.865  -0.439  -0.205  0.00  0.00     0.107 C 
+ATOM      6  N6  ZIN AC000      -5.789   0.010  -0.691  0.00  0.00    -0.191 NA
+ENDROOT
+BRANCH   4   7
+ATOM      7  C7  ZIN AC000      -2.465  -0.215   0.506  0.00  0.00     0.269 C 
+ATOM      8  O8  ZIN AC000      -1.476  -0.696   1.026  0.00  0.00    -0.266 OA
+ATOM      9  N9  ZIN AC000      -2.427   1.041   0.019  0.00  0.00    -0.322 N 
+ATOM     10  H23 ZIN AC000      -3.235   1.452  -0.326  0.00  0.00     0.169 HD
+BRANCH   9  11
+ATOM     11  C10 ZIN AC000      -1.223   1.752   0.012  0.00  0.00     0.035 A 
+ATOM     12  C19 ZIN AC000      -1.226   3.129   0.200  0.00  0.00     0.030 A 
+ATOM     13  C18 ZIN AC000      -0.036   3.829   0.187  0.00  0.00     0.018 A 
+ATOM     14  C13 ZIN AC000       1.159   3.160  -0.008  0.00  0.00     0.048 A 
+ATOM     15  C12 ZIN AC000       1.166   1.790  -0.189  0.00  0.00     0.018 A 
+ATOM     16  C11 ZIN AC000      -0.021   1.083  -0.177  0.00  0.00     0.030 A 
+BRANCH  14  17
+ATOM     17  C14 ZIN AC000       2.456   3.928  -0.022  0.00  0.00     0.417 C 
+ATOM     18  F15 ZIN AC000       2.742   4.337  -1.329  0.00  0.00    -0.166 F 
+ATOM     19  F16 ZIN AC000       2.342   5.051   0.804  0.00  0.00    -0.166 F 
+ATOM     20  F17 ZIN AC000       3.488   3.107   0.446  0.00  0.00    -0.166 F 
+ENDBRANCH  14  17
+ENDBRANCH   9  11
+ENDBRANCH   4   7
+TORSDOF 3

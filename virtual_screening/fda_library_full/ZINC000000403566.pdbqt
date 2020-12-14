@@ -1,0 +1,32 @@
+REMARK  1 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+REMARK    1  A    between atoms: C2_2  and  C3_3 
+REMARK       I    between atoms: C2_2  and  N9_9 
+ROOT
+ATOM      1  O1  ZIN AC000       0.103   0.002   0.006  0.00  0.00    -0.273 OA
+ATOM      2  C2  ZIN AC000      -0.014   1.209   0.009  0.00  0.00     0.224 C 
+ATOM      3  N9  ZIN AC000      -1.241   1.766   0.020  0.00  0.00    -0.341 N 
+ATOM      4  C10 ZIN AC000      -1.419   3.223  -0.089  0.00  0.00     0.228 C 
+ATOM      5  C11 ZIN AC000      -2.370   3.661   0.992  0.00  0.00     0.238 C 
+ATOM      6  O12 ZIN AC000      -2.354   4.820   1.347  0.00  0.00    -0.272 OA
+ATOM      7  N13 ZIN AC000      -3.233   2.818   1.575  0.00  0.00    -0.340 N 
+ATOM      8  C14 ZIN AC000      -4.226   3.379   2.515  0.00  0.00     0.131 C 
+ATOM      9  C15 ZIN AC000      -5.617   3.133   1.933  0.00  0.00     0.059 C 
+ATOM     10  C16 ZIN AC000      -5.766   1.699   1.498  0.00  0.00    -0.048 A 
+ATOM     11  C17 ZIN AC000      -7.051   1.187   1.379  0.00  0.00     0.008 A 
+ATOM     12  C18 ZIN AC000      -7.251  -0.118   0.978  0.00  0.00     0.001 A 
+ATOM     13  C19 ZIN AC000      -6.164  -0.923   0.690  0.00  0.00     0.001 A 
+ATOM     14  C20 ZIN AC000      -4.886  -0.417   0.810  0.00  0.00     0.010 A 
+ATOM     15  C21 ZIN AC000      -4.684   0.894   1.218  0.00  0.00    -0.027 A 
+ATOM     16  C22 ZIN AC000      -3.265   1.384   1.348  0.00  0.00     0.139 C 
+ATOM     17  C24 ZIN AC000      -2.451   0.944   0.136  0.00  0.00     0.156 C 
+ENDROOT
+BRANCH   2  18
+ATOM     18  C3  ZIN AC000       1.212   2.085  -0.007  0.00  0.00     0.078 C 
+ATOM     19  C8  ZIN AC000       2.379   1.318  -0.631  0.00  0.00     0.014 C 
+ATOM     20  C7  ZIN AC000       3.624   2.207  -0.647  0.00  0.00     0.001 C 
+ATOM     21  C6  ZIN AC000       3.983   2.606   0.786  0.00  0.00     0.000 C 
+ATOM     22  C5  ZIN AC000       2.816   3.373   1.410  0.00  0.00     0.001 C 
+ATOM     23  C4  ZIN AC000       1.571   2.484   1.426  0.00  0.00     0.014 C 
+ENDBRANCH   2  18
+TORSDOF 1

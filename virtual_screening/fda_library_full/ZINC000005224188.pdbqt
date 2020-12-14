@@ -1,0 +1,9 @@
+REMARK  0 active torsions:
+REMARK  status: ('A' for Active; 'I' for Inactive)
+ROOT
+ATOM      1  C1  <0> d          -0.022   1.810   0.012  0.00  0.00     0.126 C 
+ATOM      2  S2  <0> d           0.002  -0.004   0.002  0.00  0.00     0.006 S 
+ATOM      3  C3  <0> d           0.906  -0.408   1.522  0.00  0.00     0.126 C 
+ATOM      4  O4  <0> d          -1.328  -0.496   0.097  0.00  0.00    -0.259 OA
+ENDROOT
+TORSDOF 0
