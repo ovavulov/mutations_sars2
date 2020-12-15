@@ -48,7 +48,9 @@ Visualisation - PyMOL [[1]](#1), mutations screening - FoldX [[2]](#2), molecula
 <a id="1">[1]</a> 
 PyMOL
 The PyMOL Molecular Graphics System, Version 2.0 Schrödinger, LLC.
+
 <a id="1">[2]</a> 
 Schymkowitz J, Borg J, Stricher F, Nys R, Rousseau F, Serrano L. The FoldX web server: an online force field. Nucleic Acids Res. 2005;33(Web Server issue):W382-W388. doi:10.1093/nar/gki387
+
 <a id="1">[3]</a> 
 O. Trott, A. J. Olson, AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization and multithreading, Journal of Computational Chemistry 31 (2010) 455-461
