@@ -17,8 +17,8 @@ Prediction of mutations in SARS-CoV-2 S-protein RBD-domain, that increase its af
 ### Plan
 
 1) Introduction to the PDB database and the basics of visualization of three-dimensional structures in PyMOL, search for mutation variants that increase affinity for ACE2.
-2) Selection of the most stable mutant variants of RBD (RBD-mut) with increased affinity using FoldX
-Docking of FDA-approved drug molecules using AutoDock and search for potential competitive inhibitors of selected RBD-mut, detailed analysis of the interaction of 3) selected ligands.
+2) Selection of the most stable mutant variants of RBD (RBD-mut) with increased affinity using FoldX.
+3) Docking of FDA-approved drug molecules using AutoDock and search for potential competitive inhibitors of selected RBD-mut, detailed analysis of the interaction of selected ligands.
 
 ### Results
 
