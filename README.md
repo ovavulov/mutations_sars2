@@ -27,7 +27,9 @@ Prediction of mutations in SARS-CoV-2 S-protein RBD-domain, that increase its af
 
 ### Results
 
-All results you can find in the results folder.
+All results you can find in the __results__ folder. Using FoldX based pipeline we performed wide mutations screening on perspective positions. Full report is presented in __mutscreen_report.csv__. Afterwards, each team chose its own mutated RBD variant to keep going on study with: __6lzg_Repair_msk.pdb__, __6lzg_Repair_spb.pdb__. Finally, the second AutoDock based pipeline was applied. As a result, we got sorted by affinity list of ligands. You can see an example of it in __docking_report.csv__.
+
+![](images/ligands.gif)
 
 
 ## Methods
