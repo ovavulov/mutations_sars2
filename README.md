@@ -2,7 +2,7 @@
 
 Materials for semester project in Bioinformatics Institute (fall 2020)
 
-__Students__:   Akimenkova M., Ivanova E., Shemyakina A., Vavulov O., Varchenko K.
+__Students__:   Ivanova E.,  Varchenko K. (SPb team), Akimenkova M., Shemyakina A., Vavulov O. (Moscow team)
 
 __Supervisor__: Zolotarev A. (SPbSU), Danilov L. (Bioinformatics Institute)
 
@@ -34,7 +34,7 @@ All results you can find in the __results__ folder. Using FoldX based pipeline w
 
 ## Methods
 
-...
+Visualisation - PyMOL [[1]](#1), mutations screening - FoldX, molecular docking - AutoDock Vina.
 
 ## Requirements
 
@@ -45,5 +45,6 @@ All results you can find in the __results__ folder. Using FoldX based pipeline w
 ...
 
 ## Refereneces
-
-...
+<a id="1">[1]</a> 
+PyMOL
+The PyMOL Molecular Graphics System, Version 2.0 Schrödinger, LLC.
