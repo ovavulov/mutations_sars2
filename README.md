@@ -2,6 +2,10 @@
 
 Materials for semester project in Bioinformatics Institute (fall 2020)
 
+Students:   Akimenkova M., Ivanova E., Shemyakina A., Vavulov O., Varchenko K.
+
+Supervisor: Zolotarev A. (SPbSU), Danilov L. (Bioinformatics Institute)
+
 ## Problem & Results
 
 ### Introduction
