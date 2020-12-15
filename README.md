@@ -27,18 +27,24 @@ Prediction of mutations in SARS-CoV-2 S-protein RBD-domain, that increase its af
 
 ### Results
 
-All results you can find in the __results__ folder. Using FoldX based pipeline we performed wide mutations screening on perspective positions. Full report is presented in __mutscreen_report.csv__. Afterwards, each team chose its own mutated RBD variant to keep going on study with: __6lzg_Repair_msk.pdb__, __6lzg_Repair_spb.pdb__. Finally, the second AutoDock based pipeline was applied. As a result, we got sorted by affinity list of ligands. You can see an example of it in __docking_report.csv__.
+All results you can find in the __results__ folder. Using FoldX based pipeline we performed wide mutations screening on perspective positions. Full report is presented in __mutscreen_report.csv__. Afterwards, each team chose its own mutated RBD variant to keep going on study with: __6lzg_Repair_msk.pdb__, __6lzg_Repair_spb.pdb__. Finally, the second AutoDock based pipeline was applied. As a result, we got sorted by affinity list of ligands. You can see an example of it in __docking_report.csv__. The result of docking for the selected ligands is presented below.
 
 ![](images/ligands.gif)
 
 
 ## Methods
 
-Visualisation - PyMOL [[1]](#1), mutations screening - FoldX [[2]](#2), molecular docking - AutoDock Vina [[3]](#3).
+Visualization - PyMOL [[1]](#1), mutations screening - FoldX [[2]](#2), molecular docking - AutoDock Vina [[3]](#3).
 
 ## Requirements
 
-...
+Compatibility is guaranteed for followed python packages versions:
+
+    numpy==1.19.4
+    pandas==1.1.4
+    python-dateutil==2.8.1
+    pytz==2020.4
+    six==1.15.0
 
 ## User Guide
 
