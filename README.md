@@ -167,6 +167,7 @@ __cpu__ - CPU number given to a single vina task
 
 __seed__ - reproducibility factor
 
+To take up step 2 just launch new generated shell script: __start_screening_\*.sh__
 
 
 
