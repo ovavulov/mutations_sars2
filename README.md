@@ -133,7 +133,7 @@ __cd path_to_project/virtual_screening__
 
 Configs and script preparation, step 1:
 
-__python prepare_configs.py -db {folder with ligands library} -threads {parallel threads number}
+__python prepare_configs.py -db {folder with ligands library} -threads {parallel threads number}__
 
 That script provides config files for every ligand docking task according with __config_template.txt__ file of following content
 
@@ -153,12 +153,19 @@ That script provides config files for every ligand docking task according with _
 
 Config template description:
 
-__receptor__ - relative path to the receptor pdbqt-structure from the folder containing vina binary file; given path is the path for all pipeline output also
+__receptor__ - relative path to the receptor pdbqt-structure from the folder containing vina binary file
 
 __ligand__ - similar to _receptor_ relative path to ligand directory; FOLDER and LIGAND are placeholders and replaced automatically
 
-__center_x, 
+__center_{x, y, z}, size_{x, y, z}__ - docking box center coordinates and width; can be found from AutoDockTools visualization software
 
+__out, log__ - template for the output structure and log files
+
+__num_modes__ - number of single ligand conformations to analyse
+
+__cpu__ - CPU number given to a single vina task
+
+__seed__ - reproducibility factor
 
 
 
