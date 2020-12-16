@@ -6,12 +6,12 @@ from datetime import datetime
 init = datetime.now()
 projectPath = os.getcwd()
 
-# читаем параметры пайплайна
+# pipeline parameters reading
 command = sys.argv
 cfg = command[command.index("-f")+1]
 params = getParams(cfg)
 
-# шаг 1 - корректируем структуру комплекса
+# шаг 1 - complex structure correction
 makeRepair(**params)
 os.chdir(projectPath)
 
