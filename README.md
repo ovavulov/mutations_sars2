@@ -167,9 +167,13 @@ __cpu__ - CPU number given to a single vina task
 
 __seed__ - reproducibility factor
 
-To take up step 2 just launch new generated shell script: __start_screening_\*.sh__
+To take up step 2 just launch new generated shell script: __start\_screening_\*.sh__
 
+The final results extraction may be performed by __get_top.py__ script:
 
+__python get_top.py -n {number of best structures to save} -from {docked ligands directory} -to {output folder}
+
+To renew the project you can use __wash\_project.py__ script.
 
 
 ## Refereneces
