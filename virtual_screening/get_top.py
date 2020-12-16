@@ -6,8 +6,12 @@ import pandas as pd
 command = sys.argv
 path = ""
 n = 1
+
+# path to ligands
 if "-from" in command:
     path = command[command.index("-from")+1]
+    
+# top ligands to take
 if "-n" in command:
     n = int(command[command.index("-n")+1])
 
