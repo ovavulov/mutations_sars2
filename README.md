@@ -157,7 +157,7 @@ __receptor__ - relative path to the receptor pdbqt-structure from the folder con
 
 __ligand__ - similar to _receptor_ relative path to ligand directory; FOLDER and LIGAND are placeholders and replaced automatically
 
-__center_{x, y, z}, size_{x, y, z}__ - docking box center coordinates and width; can be found from AutoDockTools visualization software
+__center\_{x, y, z}, size\_{x, y, z}__ - docking box center coordinates and width; can be found from AutoDockTools visualization software
 
 __out, log__ - template for the output structure and log files
 
