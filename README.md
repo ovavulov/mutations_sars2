@@ -72,11 +72,11 @@ Setting up the environment
 
 __pip install -r requirements.txt__
 
-Make a correction of the complex structure using the RepairPDB command:
+Make a correction of the complex structure using the RepairPDB command, step 1:
 
 __python Repair.py -f config.cfg__
 
-To make the screening of mutations at the specified positions (PositionScan, BuildModel, AnalyseComplex)
+To make the screening of mutations at the specified positions (PositionScan, BuildModel, AnalyseComplex), steps 2 - 5:
 
 __python Screening.py -f config.cfg__
 
@@ -105,9 +105,9 @@ __rbd__ - file name for the RBD structure (after Repair)
 
 __positions__ - list of positions in the RBD for screening. It is served in the format of the positions parameter for the PositionScan command in FoldX ([format description](http://foldxsuite.crg.eu/command/PositionScan)). The d key (24 amino acids) is not supported yet
 
-__posrange__ {int:int} - range of the size of target mutations by the number of mutated positions. For example, posrange=2:3 means that we will only check for mutation sets in which the remainder substitution occurred at two or three positions
+__posrange__ {int:int} - range of target mutations size by the mutated positions number. For example, posrange=2:3 means that we will only check for mutation sets in which the remainder substitution occurred at two or three positions
 
-__muttake__ {float, int, "input", "all"} - since the potential number of combinations of suitable mutations can be very large, we can limit the sample for final analysis using _muttake_. If a decimal fraction from 0 to 1 is supplied, the corresponding fraction of the total number of mutations is randomly selected. If a natural number is supplied, a fixed number of mutations is randomly selected. With the "input" parameter, the user sets the parameter manually (float or int) according to the route of the pipeline operation. When set to "all", all combinations of mutations are analyzed
+__muttake__ {float, int, "input", "all"} - since the potential number of combinations of suitable mutations can be very large, we can limit the sample for final analysis using _muttake_. If a decimal fraction from 0 to 1 is supplied, the corresponding fraction of the total number of mutations is randomly selected. If a positive integer is supplied, a fixed number of mutations is randomly selected. With the "input" parameter, the user sets the parameter manually (float or int) during the pipeline operation. When it is set to "all", all combinations of mutations are analyzed
 
 __nthreads__ {int} - number of parallel pipeline execution threads
 
@@ -115,7 +115,17 @@ __repair__ {"todo", "done"} - flag for performing structure correction. The valu
 
 __posscan__, __bmrbd__, __bmcomplex__, __analysecomplex__ {"todo", "done", "skip"} - status flags of the corresponding pipeline stages for separate execution of stages. If you want to perform a certain stage separately, it is necessary that the previous stages have the "done" flag set, and the subsequent ones - "skip" (skip the stage)
 
-__rs__ {int} - parameter for reproducibility of the distribution of intermediate results in the project catalog, does not affect the result of the pipeline
+__rs__ {int} - parameter for reproducibility of the intermediate results distribution in the project catalog, does not affect the result of the pipeline
+
+### virtual_screening
+
+An AutoDock Vina based pipeline for finding the most affine conformation for the ligands from the FDA-approved database for the determined protein binding site
+
+#### Description
+
+
+
+#### First launch
 
 
 
