@@ -32,7 +32,7 @@ All results you can find in the __results__ folder. Using FoldX based pipeline w
 
 ## Methods
 
-Visualization - PyMOL [[1]](#1), mutations screening - FoldX [[2]](#2), molecular docking - AutoDock Vina [[3]](#3).
+Visualization - PyMOL [[1]](#1), AutoDockTools [[2]](#2), mutations screening - FoldX [[3]](#3), molecular docking - AutoDock Vina [[4]](#4).
 
 ## Requirements
 
@@ -121,9 +121,45 @@ An AutoDock Vina based pipeline for finding the most affine conformation for the
 
 #### Description
 
+1. Config files and task shell script preparation according to given options and config template
 
+2. Parallel virtual screening with AutoDock Vina
+
+3. Get the most affine ligands. Saving results
 
 #### First launch
+
+__cd path_to_project/virtual_screening__
+
+Configs and script preparation, step 1:
+
+__python prepare_configs.py -db {folder with ligands library} -threads {parallel threads number}
+
+That script provides config files for every ligand docking task according with __config_template.txt__ file of following content
+
+        receptor  = ../output/RBD_mut_protein.pdbqt
+        ligand    = ../FOLDER/LIGAND.pdbqt
+        center_x = -32.799
+        center_y = 24.877
+        center_z = 5.741
+        size_x = 10
+        size_y = 12
+        size_z = 8
+        out       = ../output/LIGAND.docked.pdbqt
+        log       = ../output/LIGAND.docked.log
+        num_modes = 10
+        cpu = 4
+        seed = 19 
+
+Config template description:
+
+__receptor__ - relative path to the receptor pdbqt-structure from the folder containing vina binary file; given path is the path for all pipeline output also
+
+__ligand__ - similar to _receptor_ relative path to ligand directory; FOLDER and LIGAND are placeholders and replaced automatically
+
+__center_x, 
+
+
 
 
 
@@ -133,8 +169,11 @@ An AutoDock Vina based pipeline for finding the most affine conformation for the
 PyMOL
 The PyMOL Molecular Graphics System, Version 2.0 Schrödinger, LLC.
 
-<a id="1">[2]</a> 
+<a id="2">[2]</a> 
+Morris, G. M., Huey, R., Lindstrom, W., Sanner, M. F., Belew, R. K., Goodsell, D. S. and Olson, A. J. (2009) Autodock4 and AutoDockTools4: automated docking with selective receptor flexiblity. J. Computational Chemistry 2009, 16: 2785-91.
+
+<a id="3">[3]</a> 
 Schymkowitz J, Borg J, Stricher F, Nys R, Rousseau F, Serrano L. The FoldX web server: an online force field. Nucleic Acids Res. 2005;33(Web Server issue):W382-W388. doi:10.1093/nar/gki387
 
-<a id="1">[3]</a> 
+<a id="4">[4]</a> 
 O. Trott, A. J. Olson, AutoDock Vina: improving the speed and accuracy of docking with a new scoring function, efficient optimization and multithreading, Journal of Computational Chemistry 31 (2010) 455-461
