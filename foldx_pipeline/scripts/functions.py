@@ -1,4 +1,7 @@
 def getParams(cfg):
+    """
+    Config reading and input parameters sanity check
+    """
     import os
     mainParams = ["complex", "rbd", "posRange", "mutTake", "repair", "posscan", "bmRBD", "bmComplex", "analyseComplex"]
     with open(cfg) as f:
@@ -33,6 +36,9 @@ def getParams(cfg):
 
 
 def makeRepair(**params):
+    """
+    Launching RepairPDB on specified in config structure
+    """
     import os
     structure = params["complex"]
     structureRep = params["complex"].split(".")[0]+"_Repair.pdb"
@@ -49,6 +55,9 @@ def makeRepair(**params):
 
 
 def getDist(seq1, seq2):
+    """
+    Get number of substitutions between two codons
+    """
     assert len(seq1) == len(seq2)
     result = 0
     for i in range(len(seq1)):
@@ -57,6 +66,9 @@ def getDist(seq1, seq2):
 
 
 def makePositionScan(**params):
+    """
+    Selecting only SNP among specified in config positions, filtering out destabilizing ones, position sets compilation, preparing configs for the next stage
+    """
     import os
     import pickle
     import numpy as np
@@ -73,11 +85,11 @@ def makePositionScan(**params):
         print(f"\n\nPosition scanning in {structure} structure is in progress...\n")
         positions = params["positions"].split(",")
         finalPositions = []
-        # справочные словари по обозначениям и соответствию кодов и АК
+        # reference dictionaries on genetic code (codon - aminoacid relations)
         codons, one2three, three2one = pickle.load(open("./scripts/gencode.pkl", "rb"))
-        # списки АК по флагам Position Scan
+        # aminoacid groups: polar, hydrophobic, all
         psflags = pickle.load(open("./scripts/psflags.pkl", "rb"))
-        # нуклеотидная и аминокислотная последовательности S-белка
+        # nucleotide and protein sequence for S-protein from GenBank
         geneS, protS = pickle.load(open("./scripts/Sseq.pkl", "rb"))
         for position in positions:
             chain = position[1]
@@ -95,7 +107,7 @@ def makePositionScan(**params):
                 mutCodons = codons[mutRes]
                 for mutCodon in mutCodons:
                     dist = getDist(wtCodon, mutCodon)
-                    if dist == 1:  # отбираем только SNP
+                    if dist == 1:  # SNP only
                         finalPositions.append(wtRes1 + chain + index + three2one[mutRes])
                         break
         print(f"{len(finalPositions)} point mutations was selected:\n")
@@ -203,6 +215,9 @@ def makePositionScan(**params):
 
 
 def buildModel(obj, **params):
+    """
+    Modifying determined structure with selected mutations sets via BuildModel command                           
+    """                         
     assert obj in ['rbd', 'complex']
     import os
     import numpy as np
@@ -321,6 +336,9 @@ def buildModel(obj, **params):
 
 
 def analyseComplex(**params):
+    """
+    Interaction energy computation via AnalyseComplex command and results saving
+    """                                 
     import os
     import pandas as pd
     from subprocess import Popen, PIPE
