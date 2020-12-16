@@ -3,8 +3,12 @@ import os, sys
 command = sys.argv
 suffix = ""
 nthreads = 1
+
+# path to ligand database
 if "-db" in command:
     suffix = "_" + command[command.index("-db")+1]
+    
+# threads number
 if "-threads" in command:
     nthreads = int(command[command.index("-threads")+1])
 
